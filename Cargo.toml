@@ -1,0 +1,14 @@
+[package]
+name = "forbasilers"
+version = "0.1.1"
+authors = ["niklasr <niklasr@protonmail.com>"]
+edition = "2018"
+
+[lib]
+plugin = true
+name = "roman_numerals"
+path = "src/roman_numerals.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
